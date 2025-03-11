@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 # import os
 from datetime import datetime
@@ -140,3 +140,4 @@ plt.title('Apple Stock Close Price')
 plt.xlabel('Date')
 plt.ylabel("Close")
 plt.legend(['Train', 'Test', 'Predictions'])
+plt.show()
