@@ -4,6 +4,15 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 import matplotlib as mpl
+import seaborn as sns
+import os
+from datetime import datetime
+import warnings
+
+warnings.filterwarnings("ignore")
+
+print(data.shape)
+print(data.sample(5))
 
 # py -3.11 pip install 
 
